@@ -47,7 +47,7 @@ The DREP Chain is a high-performance public chain fully developed by the DREP te
 ```
  curl -H "Content-Type: application/json" -X post --data '{"jsonrpc":"2.0","method":"account_listAddress","params":[],"id":1}' http://127.0.0.1:15645
 ```
-### Sending a trsnaction
+### Sending a transaction
 
 ```
 curl -H "Content-Type: application/json" -X post --data '{"jsonrpc":"2.0","method":"account_transfer","params":["0x7923a30bbfbcb998a6534d56b313e68c8e0c594a","0xb527326623a499f7ea550f1be98a9a6e3b56ee29","0x111","0x110","0x30000",""],"id":1}' http://127.0.0.1:15645
