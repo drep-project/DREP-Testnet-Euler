@@ -1,0 +1,60 @@
+{
+	"log" : {
+	      "logLevel": 3
+	},
+	"rpc" : {
+	      "IPCEnabled": true,
+	      "HTTPEnabled": true,
+	      "WSEnabled": false,
+	      "WSExposeAll": false,
+	      "RESTEnabled": false
+	},
+	"p2p" : {
+	      "MaxPeers": 20,
+	      "NoDiscovery": false,
+	      "DiscoveryV5": true,
+	      "Name": "drepnode",
+	      "BootstrapNodes": null,
+	      "StaticNodes": [
+	            "enode://a03da3ba89fab257181dc76f61a5630b5a369b583df88d96090d48fd94ef6c56@39.100.111.74:55555",
+	            "enode://358cf74ae63ba2ab2e823d26cf20da85e92a0fa444a94690a9e794471c02c331@47.88.230.122:55555",
+	            "enode://b71a51ca7853148946b41fbb101df68d194398a68d238c5c188cc91f145a606c@39.98.39.224:55555",
+	            "enode://c26c98188c1e4aeb47ecbd5c9d62b2a6e3100af88744528c73af975f5d0437b7@47.75.98.179:55555",
+	            "enode://74155804b52fb72a3e06173e4939f664c1a114fe7ab7e6b44028c687eb28fc4b@192.168.0.168:55555"
+	      ],
+	      "ListenAddr": "0.0.0.0:55555"
+	},
+	"chain" : {
+	      "remoteport": 55556,
+	      "rootChain": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+	      "chainId": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+	      "genesispk": "0x03177b8e4ef31f4f801ce00260db1b04cc501287e828692a404fdbc46c7ad6ff26",
+	      "skipCheckMutiSig": false,
+	      "producers": [
+	            {
+	                  "pubkey": "0x0374bf9c8ea268b5548686685dda4a74fc95903ca7c440e5b187a718b595c1f374",
+	                  "ip": "39.100.111.74"
+	            },
+	            {
+	                  "pubkey": "0x02f11cfd138eaaaba5f8c0a7f1f2791bdabd0b0c404734dceac820aa9b683bfb1a",
+	                  "ip": "47.88.230.122"
+	            },
+	            {
+	                  "pubkey": "0x03949aad279a32536ce20f0957c9c6ba592532ea70e5f174332bed4c94382354e3",
+	                  "ip": "39.98.39.224"
+	            },
+	            {
+	                  "pubkey": "0x0263bc5628fa7033727d14b5d6714ac7d6a5d34bc5db994a896f54499f12db9b0b",
+	                  "ip": "47.75.98.179"
+	            },
+	            {
+	                  "pubkey": "0x02abfb7409976ca9204ece64632167fea1a93fac75e6a1bf089a4b9caf0d6667c9",
+	                  "ip": "192.168.0.168"
+	            }
+	      ]
+	},
+	"accounts" : {
+	      "enable": true,
+	      "password": "123"
+	}
+}
